@@ -13,11 +13,11 @@ body{
 
 .global-container{
     
-    margin-top: 10px;
-    height: 100vh;
+    height: 100%;
     width: 80vw;
     margin:auto;
     margin-top: 10vh;
+    margin-bottom: 10vh;
     
     display: flex;
     flex-direction: column;
@@ -28,6 +28,7 @@ body{
     background-color: #2a2a2a;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     border:1px solid rgb(119, 118, 118);
     border-radius: 10px;
     padding: 20px 20px 50px 20px;
@@ -38,6 +39,7 @@ body{
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 50px;
     font-weight: 700;
+    word-break: break-all;
 }
 
 .about-me{
@@ -46,6 +48,7 @@ body{
     gap: 100px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .about-me-text{
@@ -80,7 +83,8 @@ body{
     display: flex;
     column-gap: 20px;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
+    row-gap: 20px;
 
 }
 
@@ -104,7 +108,7 @@ body{
 
 .skills-container{
     flex: 1.5;
-     background-color: #2a2a2a;
+    background-color: #2a2a2a;
     border:1px solid rgb(119, 118, 118);
     border-radius: 10px;
     padding: 20px 20px 20px 40px;
@@ -132,4 +136,52 @@ body{
 
 ul li{
     line-height: 30px;
+    text-align: justify;
+}
+
+
+.projects-container{
+    padding: 20px;
+    border:1px solid rgb(119, 118, 118);
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+
+.project-main-heading{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.project-details-container{
+    background-color: #2a2a2a;
+    border:1px solid rgb(119, 118, 118);
+    border-radius: 10px;
+    padding: 20px 20px 20px 40px;
+}
+
+.project-heading{
+    display: inline-block;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+   word-break: break-all;
+}
+
+.project-heading:hover{
+    text-decoration: underline;
+}
+
+.projects-details{
+    font-weight: 300;
 }

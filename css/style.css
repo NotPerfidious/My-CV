@@ -262,7 +262,7 @@ ul li {
     color: black;
 }
 
-.project-heading:hover {
+.project-heading-dark:hover, .project-heading-light:hover {
     text-decoration: underline;
 }
 

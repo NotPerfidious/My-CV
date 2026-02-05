@@ -247,3 +247,18 @@ ul li{
 .phone-sign{
     width: 28px;
 }
+
+.footer-container{
+    height: 50px;
+    background-color: #2a2a2a;
+    font-weight: 300;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.footer-content{
+    display: flex;
+    gap: 20px;
+}

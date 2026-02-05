@@ -45,13 +45,15 @@ body{
     font-size: 50px;
     font-weight: 700;
     word-break: break-all;
+    letter-spacing: 2px;
 }
 
 .title{
     margin: auto;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 400;
+    letter-spacing: 2px;
 }
 
 .about-me{

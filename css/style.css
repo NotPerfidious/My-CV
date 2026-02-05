@@ -21,7 +21,7 @@ body{
     
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 40px;
 }
 
 .about-me-container{
@@ -198,4 +198,52 @@ ul li{
 
 .projects-details{
     font-weight: 300;
+}
+
+.contact-container{
+    background-color: #2a2a2a;
+    border:1px solid rgb(119, 118, 118);
+    border-radius: 10px;
+    padding: 20px 20px 20px 40px;
+}
+
+.contact-heading{
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.contact-content{
+    font-weight: 300;
+}
+
+.email-container{
+    display: flex;
+    column-gap: 10px;
+    justify-content: start;
+    align-items: center;
+}
+
+
+
+.email-sign{
+   width: 28px;
+}
+
+.phone-no-sign-container{
+ display: flex;
+ column-gap: 10px;
+}
+
+.phone-no-container{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.phone-sign{
+    width: 28px;
 }

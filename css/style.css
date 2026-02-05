@@ -11,6 +11,28 @@ body{
 
 }
 
+.download-button{
+    background-color: #2a2a2a;
+    border:1px solid rgb(119, 118, 118);
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    border-radius: 5px;
+}
+
+.download-link{
+    padding: 5px;
+}
+
+.download-button:hover{
+    cursor: pointer;
+}
+
+.download-sign{
+   
+    width: 28px;
+}
+
 .global-container{
     
     height: 100%;

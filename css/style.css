@@ -1,67 +1,111 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Roboto, Arial;
 }
 
-body{
+.dark-mode {
 
     background-color: #0e0e0f;
     color: white;
 
 }
 
-.download-button{
+.light-mode {
+    background-color: rgb(255, 255, 255);
+    color: #1a1a1a;
+}
+
+.download-button-dark, .download-button-light {
     background-color: #2a2a2a;
-    border:1px solid rgb(119, 118, 118);
+    border: 1px solid rgb(119, 118, 118);
     position: absolute;
     top: 10px;
     left: 30px;
     border-radius: 5px;
 }
 
-.download-link{
+.download-button-light{
+    background-color: rgb(214, 210, 210);
+}
+
+.download-link {
     padding: 5px;
 }
 
-.download-button:hover{
+.download-button:hover {
     cursor: pointer;
 }
 
-.download-sign{
-   
+.download-sign {
+
     width: 28px;
 }
 
-.global-container{
-    
+.dark-mode-button,
+.light-mode-button {
+    background-color: #2a2a2a;
+    border: 1px solid rgb(119, 118, 118);
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    border-radius: 5px;
+}
+
+.dark-mode-button {
+    background-color: #2a2a2a;
+    border: 1px solid rgb(119, 118, 118);
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    border-radius: 5px;
+}
+
+.light-mode-button {
+    background-color: rgb(214, 210, 210);
+    color: black;
+}
+
+.dark-mode-button:hover,
+.light-mode-sign:hover {
+    cursor: pointer;
+}
+
+.dark-mode-sign,
+.light-mode-sign {
+    width: 27px;
+    padding: 2px 5px;
+}
+
+.global-container {
+
     height: 100%;
     width: 80vw;
-    margin:auto;
+    margin: auto;
     margin-top: 10vh;
     margin-bottom: 10vh;
-    
+
     display: flex;
     flex-direction: column;
     row-gap: 40px;
 }
 
-.about-me-container{
+.about-me-container {
     background-color: #2a2a2a;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border:1px solid rgb(119, 118, 118);
+    border: 1px solid rgb(119, 118, 118);
     border-radius: 10px;
     padding: 20px 20px 50px 20px;
 }
 
-.name-title-container{
+.name-title-container {
     display: flex;
     flex-direction: column;
 }
 
-.my-name{
+.my-name {
     margin: auto;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 50px;
@@ -70,7 +114,7 @@ body{
     letter-spacing: 2px;
 }
 
-.title{
+.title {
     margin: auto;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -78,8 +122,8 @@ body{
     letter-spacing: 2px;
 }
 
-.about-me{
-    
+.about-me {
+
     display: flex;
     gap: 100px;
     justify-content: center;
@@ -87,35 +131,35 @@ body{
     flex-wrap: wrap;
 }
 
-.about-me-text{
+.about-me-text {
     flex: 2;
     text-align: justify;
-    
+
     font-size: 20px;
     font-weight: 300;
 }
 
-.my-pic-container{
+.my-pic-container {
     width: 200px;
-     
+
 }
 
-.my-pic{
+.my-pic {
 
-    
-   width: 100%;
-   height: 200px;
-    
-    object-fit:cover;
+
+    width: 100%;
+    height: 200px;
+
+    object-fit: cover;
     object-position: left;
     border-radius: 150px;
-    border: 1px solid rgba(0,0,0, 0.25);
-    box-shadow: 1px 1px 3px rgba(0,0,0, 0.56);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.56);
 }
 
 
 
-.education-awards-skills-container{
+.education-awards-skills-container {
     display: flex;
     column-gap: 20px;
     justify-content: space-between;
@@ -124,9 +168,9 @@ body{
 
 }
 
-.education-container{
+.education-container {
     background-color: #2a2a2a;
-    border:1px solid rgb(119, 118, 118);
+    border: 1px solid rgb(119, 118, 118);
     border-radius: 10px;
     padding: 20px 20px 20px 40px;
 
@@ -134,23 +178,23 @@ body{
 
 }
 
-.awards-container{
+.awards-container {
     flex: 1;
     background-color: #2a2a2a;
-    border:1px solid rgb(119, 118, 118);
+    border: 1px solid rgb(119, 118, 118);
     border-radius: 10px;
     padding: 20px 20px 20px 40px;
 }
 
-.skills-container{
+.skills-container {
     flex: 1.5;
     background-color: #2a2a2a;
-    border:1px solid rgb(119, 118, 118);
+    border: 1px solid rgb(119, 118, 118);
     border-radius: 10px;
     padding: 20px 20px 20px 40px;
 }
 
-.education-awards-skills-heading{
+.education-awards-skills-heading {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -162,23 +206,23 @@ body{
 
 
 
-.point-heading{
+.point-heading {
     font-weight: 700;
 }
 
-.point-detail{
+.point-detail {
     font-weight: 300;
 }
 
-ul li{
+ul li {
     line-height: 30px;
     text-align: justify;
 }
 
 
-.projects-container{
+.projects-container {
     padding: 20px;
-    border:1px solid rgb(119, 118, 118);
+    border: 1px solid rgb(119, 118, 118);
     border-radius: 10px;
 
     display: flex;
@@ -187,7 +231,7 @@ ul li{
 }
 
 
-.project-main-heading{
+.project-main-heading {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 40px;
     font-weight: 700;
@@ -196,14 +240,14 @@ ul li{
     margin-bottom: 25px;
 }
 
-.project-details-container{
+.project-details-container {
     background-color: #2a2a2a;
-    border:1px solid rgb(119, 118, 118);
+    border: 1px solid rgb(119, 118, 118);
     border-radius: 10px;
     padding: 20px 20px 20px 40px;
 }
 
-.project-heading{
+.project-heading-dark, .project-heading-light {
     display: inline-block;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 30px;
@@ -211,25 +255,29 @@ ul li{
     margin-bottom: 20px;
     text-decoration: none;
     color: white;
-   word-break: break-all;
+    word-break: break-all;
 }
 
-.project-heading:hover{
+.project-heading-light{
+    color: black;
+}
+
+.project-heading:hover {
     text-decoration: underline;
 }
 
-.projects-details{
+.projects-details {
     font-weight: 300;
 }
 
-.contact-container{
+.contact-container {
     background-color: #2a2a2a;
-    border:1px solid rgb(119, 118, 118);
+    border: 1px solid rgb(119, 118, 118);
     border-radius: 10px;
     padding: 20px 20px 20px 40px;
 }
 
-.contact-heading{
+.contact-heading {
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -238,11 +286,11 @@ ul li{
     margin-bottom: 25px;
 }
 
-.contact-content{
+.contact-content {
     font-weight: 300;
 }
 
-.email-container{
+.email-container {
     display: flex;
     column-gap: 10px;
     justify-content: start;
@@ -251,26 +299,26 @@ ul li{
 
 
 
-.email-sign{
-   width: 28px;
+.email-sign {
+    width: 28px;
 }
 
-.phone-no-sign-container{
- display: flex;
- column-gap: 10px;
+.phone-no-sign-container {
+    display: flex;
+    column-gap: 10px;
 }
 
-.phone-no-container{
+.phone-no-container {
     display: flex;
     align-items: center;
     column-gap: 10px;
 }
 
-.phone-sign{
+.phone-sign {
     width: 28px;
 }
 
-.footer-container{
+.footer-container {
     height: 50px;
     background-color: #2a2a2a;
     font-weight: 300;
@@ -280,7 +328,7 @@ ul li{
     padding-left: 10px;
 }
 
-.footer-content{
+.footer-content {
     display: flex;
     gap: 20px;
 }

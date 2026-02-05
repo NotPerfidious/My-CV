@@ -7,6 +7,8 @@
     <title>M Basim CV</title>
 
     <link rel="stylesheet" href="css/style.css">
+    
+    
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,12 +19,16 @@
 
 </head>
 
-<body>
+<body class="dark-mode">
 
-    <button class="download-button">
-        <a class="download-link" href="images/M Basim CV.pdf" download>
-            <img class="download-sign" src="images/download-sign.png" alt="">
+    <button class=" download-button-dark">
+        <a class="js-download-link download-link" href="images/M Basim CV.pdf" download>
+            <img class="download-sign" src="images/light-download-sign.png" alt="">
         </a>
+    </button>
+
+    <button class="js-light-dark-mode-button dark-mode-button" data-mode="dark">
+        <img class="dark-mode-sign" src="images/dark-mode-sign.png" alt="dark-mode-sign">
     </button>
 
     <div class="global-container">
@@ -129,7 +135,7 @@
             <div class="project-main-heading">Projects</div>
 
             <div class="project-details-container">
-                <a class="project-heading" href="https://github.com/NotPerfidious/Chess.git" target="_blank">Chess</a>
+                <a class="project-heading-dark" href="https://github.com/NotPerfidious/Chess.git" target="_blank">Chess</a>
                 <div class="projects-details">
                     <ul>
                         <li>Developed a polymorphic engine using C++
@@ -146,7 +152,7 @@
             </div>
 
             <div class="project-details-container">
-                <a class="project-heading" href="https://github.com/NotPerfidious/Flappy-Bird-in-x86-Assembly.git"
+                <a class="project-heading-dark" href="https://github.com/NotPerfidious/Flappy-Bird-in-x86-Assembly.git"
                     target="_blank">Flappy Bird (x86 Assembly)</a>
                 <div class="projects-details">
                     <ul>
@@ -161,7 +167,7 @@
             </div>
 
             <div class="project-details-container">
-                <a class="project-heading" href="https://github.com/NotPerfidious/MultiThreaded-File-Copier.git"
+                <a class="project-heading-dark" href="https://github.com/NotPerfidious/MultiThreaded-File-Copier.git"
                     target="_blank">Multithreaded File Copier (Java / Concurrency)</a>
                 <div class="projects-details">
                     <ul>
@@ -190,7 +196,7 @@
 
                 <div class="phone-no-container">
                     <div class="phone-no-sign-container">
-                        <img class="phone-sign" src="images/telephone-sign.png" alt="telephone-sign">
+                        <img class="phone-sign" src="images/light-telephone-sign.png" alt="telephone-sign">
                     </div>
                     <div class="contact-content">+92 3344961389</div>
                 </div>
@@ -209,6 +215,8 @@
             <div>FAST-NUCES</div>
         </div>
     </footer>
+
+    <script src="scripts/script.js"></script>
 
 </body>
 

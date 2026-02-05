@@ -34,12 +34,24 @@ body{
     padding: 20px 20px 50px 20px;
 }
 
+.name-title-container{
+    display: flex;
+    flex-direction: column;
+}
+
 .my-name{
     margin: auto;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
     font-size: 50px;
     font-weight: 700;
     word-break: break-all;
+}
+
+.title{
+    margin: auto;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .about-me{
